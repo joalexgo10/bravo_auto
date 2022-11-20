@@ -1,13 +1,14 @@
 import React from 'react'
 import '../Hojas de estilos/Portada.css'
+import family from '../Imagenes/family-with-little-daughter-travelling-by-car 2.svg'
                 
 
 function Portada(props){
     return(
         <div>
-            <div className='image-container'>            
-                <img className='image-cover--container'  alt="" />
-            </div>
+            
+            <img className='image-cover--container' src={family} alt="" />
+                <span>hbsicbihabs</span>
             <div className='cover-container'>
                 <h1>
                     {props.title}
@@ -16,7 +17,7 @@ function Portada(props){
                     {props.description}
                 </p>
 
-                <button>{props.button}</button>
+                <button className='button-portada'>{props.button}</button>
             </div>
             
 

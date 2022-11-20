@@ -1,18 +1,19 @@
 
 import './App.css';
-import Cabecera from './componentes/Cabecera';
-import Portada from './componentes/Portada';
-import Section from './componentes/Section';
-import family from './Imagenes/happy-beautiful-mother-and-kids-travel-by-car-near-the-sea 1.png'
-import suv from './Imagenes/luxurious-black-car-riding-in-the-street-with-beautiful-sky.svg'
-import city from './Imagenes/young-man-driving-his-car-at-night-time.svg'
+import Header from './components/Header';
+import Cover from './components/Cover';
+import Section from './components/Section';
+import Form from './components/Form';
+import family from './assets/Imagenes/happy-beautiful-mother-and-kids-travel-by-car-near-the-sea 1.png'
+import suv from './assets/Imagenes/luxurious-black-car-riding-in-the-street-with-beautiful-sky.svg'
+import city from './assets/Imagenes/young-man-driving-his-car-at-night-time.svg'
 
 
 function App() {
   return (
     <div className="App">
-    <Cabecera/>
-    <Portada
+    <Header/>
+    <Cover
       title ="Everything you expect and more"
       description = "All our used cars come with a 21 day money back guarantee."
       button= "Show 902 cars"
@@ -33,6 +34,9 @@ function App() {
       image ={city}
       type_car ="City Cars"
       submit = "Find Cars"
+    />
+    <Form
+      title = "Sign up and find the best prices"
     />
       
         

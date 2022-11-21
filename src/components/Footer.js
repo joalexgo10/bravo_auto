@@ -3,6 +3,7 @@ import '../css/Footer.css'
 import fb from '../assets/logos/fb.svg'
 import ig from '../assets/logos/ig.svg'
 import yt from '../assets/logos/yt.svg'
+import logoFooter from '../assets/logos/logo-footer.svg'
 
 
 
@@ -48,6 +49,11 @@ function Footer(){
                     <img src={yt} alt="" />
                 </span>
             </div>
+            <div className='footer-logo'>
+                <img src={logoFooter} alt="" />
+                
+            </div>
+                
             </div>
         </div>
             

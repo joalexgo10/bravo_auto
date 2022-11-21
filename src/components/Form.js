@@ -2,7 +2,7 @@ import React from 'react';
 // import {useState} from 'react';
 // import TextField, {Input} from '@material/react-text-field';
 
-import '@material/react-text-field/dist/text-field.css';
+// import '@material/react-text-field/dist/text-field.css';
 import formPhoto from '../assets/Imagenes/car-buyer-testing-trunk-space-of-new-car-at-local-vehicle-dealership-showroom-2.png';
 import '../css/Form.css';
 

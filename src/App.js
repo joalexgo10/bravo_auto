@@ -41,8 +41,14 @@ function App() {
       
     />
     <About
-      title = "About bravoauto An Inchcape Company"
-      title2 = "Exceeding your expectations"
+      title = "About bravoauto"
+      title2 = "An Inchcape Company"
+      titleh3 = "Exceeding your expectations"
+      paragraph = "At bravoauto, we aim to exceed your expectations and give you something out of the ordinary. We promise to offer you more choice, more value, more support and most of all, more of everything you have experienced before." 
+      
+      paragraph2= "We offer best-in-class protection plans with our 21 day money back guarantee and 12 months warranty, so if you don't love it, you can return it"
+
+      // "At bravoauto, we aim to exceed your expectations and give you something out of the ordinary. We promise to offer you more choice, more value, more support and most of all, more of everything you have experienced before. We offer best-in-class protection plans with our 21 day money back guarantee and 12 months warranty, so if you don't love it, you can return it" 
      
     />
 

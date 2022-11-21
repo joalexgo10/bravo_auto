@@ -20,7 +20,7 @@ function About(props) {
             <p className='about-container--paragraph'>
                 {props.paragraph2}
             </p>
-            <img src={cars} alt="" />
+            <img className='about-container--image' src={cars} alt="" />
             
         </div>
     )

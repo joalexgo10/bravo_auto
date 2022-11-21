@@ -6,6 +6,7 @@
     flex-wrap: wrap;
     position: relative;
     width: 100%;
+    max-width: 900px;
     /* min-height: 210px; */
     margin: 0 auto;
     /* background-size: contain;

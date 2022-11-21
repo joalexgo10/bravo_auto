@@ -1,10 +1,12 @@
 import React from 'react';
+import '../css/Footer.css'
 
 
 function Footer(){
     return(
         <div>
-            <div>
+        <div className='footer-container'>
+        <div className='principal-grid'>
                 <ul>Advice</ul>
                 <ul>About us</ul>
                 <ul>Contact</ul>
@@ -15,6 +17,8 @@ function Footer(){
                 <ul>Sell My Car</ul>
                 <ul>Covid 19</ul>
             </div>
+        </div>
+            
             
         </div>
     )

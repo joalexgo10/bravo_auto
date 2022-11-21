@@ -1,0 +1,9 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 850px;
+    background-color:rgba(114, 160, 210, 1);
+    position: relative;
+    top: 850px;
+}

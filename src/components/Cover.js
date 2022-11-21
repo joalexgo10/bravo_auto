@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/Cover.css'
-import family from '../assets/Imagenes/family-with-little-daughter-travelling-by-car 2.svg'
+import family from '../assets/Imagenes/family-with-little-daughter-travelling-by-car-2.png'
                 
 
 function Cover(props){

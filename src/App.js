@@ -4,9 +4,10 @@ import Header from './components/Header';
 import Cover from './components/Cover';
 import Section from './components/Section';
 import Form from './components/Form';
-import family from './assets/Imagenes/happy-beautiful-mother-and-kids-travel-by-car-near-the-sea 1.png'
-import suv from './assets/Imagenes/luxurious-black-car-riding-in-the-street-with-beautiful-sky.svg'
-import city from './assets/Imagenes/young-man-driving-his-car-at-night-time.svg'
+import About from './components/About';
+import family from './assets/Imagenes/happy-beautiful-mother-and-kids-travel-by-car-near-the-sea-1.png'
+import suv from './assets/Imagenes/luxurious-black-car-riding-in-the-street-with-beautiful-sky.png'
+import city from './assets/Imagenes/young-man-driving-his-car-at-night-time.png'
 
 
 function App() {
@@ -37,7 +38,15 @@ function App() {
     />
     <Form
       title = "Sign up and find the best prices"
+      
     />
+    <About
+      title = "About bravoauto An Inchcape Company"
+      title2 = "Exceeding your expectations"
+     
+    />
+
+    
       
         
     </div>

@@ -1,19 +1,28 @@
-.form-photo{
+.form-container{
     position: relative;
-    min-width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 100%;
+}
+
+.form-container img{
+    position: relative;
+    min-width: 320px;
     width: auto;
-    height: 200px;
     background-size: cover;
-    background-position: center;
-    min-height: auto;
+    background-position:center;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    height: auto;
     display: flex;
     justify-items: center;
     align-items: center;
-    padding:0  ;
-    margin-top: 100px;
     margin: 0 auto;
+    padding-top: 100px;
    
 }
+
 .form-title{
     position: relative;
     font-size: 2.6rem;
@@ -28,8 +37,25 @@
     min-width: 320px;
     width: 100%;
     height: 110px;
-    margin: 10px auto;
+    margin: 20px auto;
     background: linear-gradient(360deg, rgba(0, 49, 75, 0.99) 47.84%, rgba(0, 49, 75, 0.74993) 66.67%, rgba(0, 49, 75, 0) 97.37%);
+    
+}
+.form-inputs{
+    width: 100%;
+    height: 606px;
+    background: rgba(1, 49, 75, 1);
+    display: flex;
+    position: relative;
+    top: -135px;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 500;
     
 
 }
+
+#name {
+    color: aliceblue;
+}
+

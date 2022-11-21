@@ -4,8 +4,8 @@ import Header from './components/Header';
 import Cover from './components/Cover';
 import Section from './components/Section';
 import Form from './components/Form';
-import About from './components/About';
-import Footer from './components/Footer';
+// import About from './components/About';
+// import Footer from './components/Footer';
 import family from './assets/Imagenes/happy-beautiful-mother-and-kids-travel-by-car-near-the-sea-1.png'
 import suv from './assets/Imagenes/luxurious-black-car-riding-in-the-street-with-beautiful-sky.png'
 import city from './assets/Imagenes/young-man-driving-his-car-at-night-time.png'
@@ -41,7 +41,7 @@ function App() {
       title = "Sign up and find the best prices"
       
     />
-    <About
+    {/* <About
       title = "About bravoauto"
       title2 = "An Inchcape Company"
       titleh3 = "Exceeding your expectations"
@@ -50,7 +50,7 @@ function App() {
       paragraph2= "We offer best-in-class protection plans with our 21 day money back guarantee and 12 months warranty, so if you don't love it, you can return it"
 
       />
-      <Footer/>
+      <Footer/> */}
       
 
     

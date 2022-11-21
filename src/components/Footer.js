@@ -50,7 +50,10 @@ function Footer(){
                 </span>
             </div>
             <div className='footer-logo'>
-                <img src={logoFooter} alt="" />
+                <span>
+                    <img src={logoFooter} alt="" />
+                </span>
+                
                 
             </div>
                 

@@ -5,12 +5,14 @@ function Section(props){
     
     return(
         <div>
-        <h2 className='section-title'>
-                {props.title}
-            </h2>
-            <p className='section-description'>
-                {props.description}
-            </p>
+
+        <div className='section-container1'>
+            <h2 className='section-title'>
+                    {props.title}
+                </h2>
+                <p className='section-description'>
+                    {props.description}
+                </p>
         <div className='section-container'>
             
             
@@ -24,6 +26,8 @@ function Section(props){
                 </button>
             
         </div>
+        </div>
+        
         </div>
     )
 }

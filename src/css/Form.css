@@ -43,20 +43,85 @@
 }
 .form-inputs{
     width: 100%;
-    min-height: 180px;
+    min-width: 320px;
+    min-height: 520px;
     background: rgba(1, 49, 75, 1);
     display: flex;
     position: relative;
     top: -135px;
-    font-size: 1.4rem;
-    line-height: 19px;
-    font-weight: 500;
-    flex-direction: row;
-    flex-wrap: wrap;
-    font-family: 'Nunito', sans-serif;
+    justify-content: center;
+    
+    
+}
+.form-label--input{
+    display: grid;
+    grid-template-rows: 20px 20px  ;
+    grid-auto-rows: 290px;
+    grid-auto-flow:column;
+    width: 100%;
+    justify-content: center;
+    text-align: justify;
+    margin: 0 auto;
+    padding-top: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 22px;
+    
+    
+}
+.form-label--container{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-label--input label{
+    min-width: 280px;
+    width: 100%;
+    
+}
+.form-label--input input{
+    background-color: transparent;
+    border:none;
+    border-bottom: 2px white solid;
+    height: 20px;
+    width: 100%;
     
 }
 
+.form-label--input ::placeholder{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+.form-checkbox{
+    display: flex;
+    position: relative;
+    margin:0 auto;
+    font-size: 1.4rem;
+    color:white;
+    width: 80%;
+    min-width: 280px;
+}
+.button-form{
+    position: absolute;
+    left: calc(50% - 119.5px);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 39px;
+    width:239px ;
+    height: 46px;
+    background:rgba(114, 160, 210, 1);
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+    border: none;
+    color: white;
+    margin-top: 50px;
+    
+    
+}
+
+/* 
 .input-container {
     width: 80%;
     height: 50px;
@@ -89,4 +154,4 @@
 
 .input-ripple {
     background: white !important;
-} 
+}  */

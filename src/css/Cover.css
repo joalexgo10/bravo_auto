@@ -1,5 +1,6 @@
 .cover-container{
     height: 450px;
+    min-width: 320px;
 }
 .image-cover--container{
     display: flex;

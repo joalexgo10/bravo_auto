@@ -40,18 +40,18 @@ function Footer(){
             
             <div className='footer-social_media'>
                 <span>
-                    <img src={fb} alt="" />
+                    <img src={fb} alt="logo facebook" />
                 </span>
                 <span>
-                    <img src={ig} alt="" />
+                    <img src={ig} alt="logo instagram" />
                 </span>
                 <span>
-                    <img src={yt} alt="" />
+                    <img src={yt} alt="logo youtube" />
                 </span>
             </div>
             <div className='footer-logo'>
                 <span>
-                    <img src={logoFooter} alt="" />
+                    <img src={logoFooter} alt="logo bravo auto pie de pagina" />
                 </span>
                 
                 

@@ -6,7 +6,8 @@
     min-height: 850px;
     background-color:rgba(114, 160, 210, 1);
     position: relative;
-    top: 850px;
+    
+   
 }
 
 .principal-grid{
@@ -45,15 +46,15 @@
 }
 
 .footer-paragraph p{
-        display: flex;
-        width: 80%;
-        justify-content: center;
-        text-align: justify;
-        margin: 20px auto;
-        color: white;
-        font-weight: 400;
-        font-size: 1.3rem;
-        line-height: 18px;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    text-align: justify;
+    margin: 20px auto;
+    color: white;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 18px;
 
 }
 .footer-social_media{

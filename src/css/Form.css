@@ -2,7 +2,7 @@
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    height: 250px;
+    height: auto;
     width: 100%;
 }
 
@@ -121,37 +121,3 @@
     
 }
 
-/* 
-.input-container {
-    width: 80%;
-    height: 50px;
-    font-size: 1.5rem;
-    margin: 0 auto;
-    
-    
- }
-
-.text-field {
-    background-color: transparent !important;
-    height: 50px;
-}
-
-.input-label {
-    color: white !important;
-    font-size: 1.4rem !important;
-    height: 20px;
-    line-height: 20px;
-    font-family: sans-serif !important;
-}
-
-.form-input {
-    border-bottom-color: white !important;
-    color: white !important;
-    font-size: 1.8rem !important;
-    line-height: 1.8rem;
-    caret-color: white !important;
-}
-
-.input-ripple {
-    background: white !important;
-}  */

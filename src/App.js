@@ -6,9 +6,9 @@ import Section from './components/Section';
 import Form from './components/Form';
 import About from './components/About';
 import Footer from './components/Footer';
-import family from './assets/Imagenes/happy-beautiful-mother-and-kids-travel-by-car-near-the-sea-1.png'
-import suv from './assets/Imagenes/luxurious-black-car-riding-in-the-street-with-beautiful-sky.png'
-import city from './assets/Imagenes/young-man-driving-his-car-at-night-time.png'
+import family from './assets/Images/happy-beautiful-mother-and-kids-travel-by-car-near-the-sea-1.png'
+import suv from './assets/Images/luxurious-black-car-riding-in-the-street-with-beautiful-sky.png'
+import city from './assets/Images/young-man-driving-his-car-at-night-time.png'
 
 
 function App() {

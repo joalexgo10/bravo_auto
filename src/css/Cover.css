@@ -1,5 +1,6 @@
 .cover-container{
-    height: 450px;
+    min-height: 400px;
+    height: auto;
     min-width: 320px;
 }
 .image-cover--container{

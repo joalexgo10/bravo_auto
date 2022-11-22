@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/About.css'
-import cars from'../assets/Imagenes/cars.png'
+import cars from '../assets/Images/cars.png'
 
 function About(props) {
     return(

@@ -8,7 +8,7 @@
     flex-wrap: wrap;
     position: relative;
     width: 100%;
-    max-width: 900px;
+    /* max-width: 900px; */
     /* min-height: 210px; */
     margin: 0 auto;
     /* background-size: contain;
@@ -87,4 +87,41 @@
     color: white;
     
     
+}
+
+@media screen and (min-width:768px) {
+    
+   .image-cover--container{
+    height: 400px;
+    background-size: contain;
+    object-fit: cover;
+    object-position: right;
+   }
+
+   .cover-shadow{
+    background: linear-gradient(270deg, rgba(2, 0, 0, 0.54) 0%, rgba(2, 0, 0, 0) 83.33%);
+    transform: rotate(-180deg);
+    height: 400px;
+    position: absolute;
+    top: 84px;
+   }
+   .cover-container--text{
+    display: grid;
+    grid-template-rows:60px ;
+    position: absolute;
+    top: 84px;
+    justify-content: left;
+    height: 400px;
+    width: 500px;
+    justify-content:end;
+    align-items: end;
+    align-content: center;
+    background-color:transparent ;
+   }
+   .button-portada{
+    justify-content: right;
+    align-items:flex-end;
+    top: 300px;
+
+   }
 }
